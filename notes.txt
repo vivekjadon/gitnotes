@@ -31,5 +31,19 @@ The command `git init` creates the git stuff
 (staging and the object store) in the current
 directory.
 
+# Creating the next version
+
+1. Make the desired changes to the files.
+2. Stage the changes to be in the next version.
+3. Commit the stages changes as the next version.
+
+'''
+
+notepad notes.txt
+git add notes.txt
+git commit
+
+```
+
 
 
