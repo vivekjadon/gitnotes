@@ -15,7 +15,9 @@ The '--global' option sets the settings for the whole computer instead of just t
 '''
 
 git config --global user.name "My Name"
-git confir --global user.email me@somewhere.com
+git config --global user.email me@somewhere.com
+git config --global color.vi auto
+git config --golbal core.editor notepad
 
 
 The command 'git init' creates the git stuff (staging and the object store) in the current directory.
